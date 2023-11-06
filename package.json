@@ -1,7 +1,7 @@
 {
     "name": "gotcli",
     "version": "1.0.0",
-    "description": "",
+    "description": "An interactive terminal-based application to view the houses of Game of Thrones",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "tsx src/index.ts",
