@@ -9,7 +9,7 @@ export const LOGO = figlet.textSync("GOTCLI", {
 });
 
 export const DESCRIPTION = `
-Welcome to GOTCLI!
+Welcome to GOTCLI - the app for Game of Thrones fans, by Game of Thrones fans!
 This application allows you to view the great houses of Westeros, all through your terminal!
 `;
 
