@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Stark",
+        "words": "Winter is Coming",
+        "seat": "Winterfell",
+        "region": "North",
+        "color": "#8C8D8C"
+    },
+    {
+        "name": "Baratheon",
+        "words": "Ours is the Fury",
+        "seat": "Storm's End",
+        "region": "Stormlands",
+        "color": "#E8BE02"
+    },
+    {
+        "name": "Greyjoy",
+        "words": "We Do Not Sow",
+        "seat": "Pyke",
+        "region": "Iron Islands",
+        "color": "#B39331"
+    },
+    {
+        "name": "Tully",
+        "words": "Family, Duty, Honor",
+        "seat": "Riverrun",
+        "region": "Riverlands",
+        "color": "#AE513E"
+    },
+    {
+        "name": "Martell",
+        "words": "Unbowed, Unbent, Unbroken",
+        "seat": "Sunspear",
+        "region": "Dorne",
+        "color": "#F09C5F"
+    },
+    {
+        "name": "Lannister",
+        "words": "Hear Me Roar!",
+        "seat": "Casterly Rock",
+        "region": "Westerlands",
+        "color": "#C4B389"
+    },
+    {
+        "name": "Arryn",
+        "words": "As High as Honor",
+        "seat": "Vale of Arryn",
+        "region": "Eyrie",
+        "color": "#3C4450"
+    },
+    {
+        "name": "Tyrell",
+        "words": "Growing Strong",
+        "seat": "Highgarden",
+        "region": "Reach",
+        "color": "#859478"
+    }
+]
