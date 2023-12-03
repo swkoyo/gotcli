@@ -1,3 +1,5 @@
+import { RANDOM_SERVICE_URL, TOTAL_HOUSE_COUNT } from "./constants";
+
 export function clearScreen(): void {
     process.stdout.write("\x1bc");
 }
@@ -20,4 +22,20 @@ export function formatHouseName(house: string): string {
         })
         .join(" ");
     return res;
+}
+
+export async function getRandomNum(
+    max: number = TOTAL_HOUSE_COUNT,
+): Promise<number> {
+    try {
+        const res = await fetch(`${RANDOM_SERVICE_URL}?max_num=${max}`);
+        if (!res.ok) {
+            throw new Error("Failed to fetch");
+        }
+        const data = await res.json();
+        return (data as { random_number: number }).random_number;
+    } catch (err) {
+        console.log(err);
+        return TOTAL_HOUSE_COUNT;
+    }
 }

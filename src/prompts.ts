@@ -23,7 +23,6 @@ export async function getSelectionMethod(): Promise<SELECTION_ENUM> {
                 name: "Get random house",
                 value: SELECTION_ENUM.RANDOM,
                 description: "Get a random house",
-                disabled: "(Not available at this time)",
             },
         ],
     });

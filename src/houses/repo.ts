@@ -16,3 +16,13 @@ export async function getHouseByName(name: string): Promise<House | null> {
     if (res.length === 0) return null;
     return res[0];
 }
+
+export async function getHouseById(id: number): Promise<House | null> {
+    const res = await db
+        .select()
+        .from(houses)
+        .where(eq(houses.id, id))
+        .limit(1);
+    if (res.length === 0) return null;
+    return res[0];
+}

@@ -18,3 +18,7 @@ export enum SELECTION_ENUM {
     SEARCH = "SEARCH",
     RANDOM = "RANDOM",
 }
+
+export const RANDOM_SERVICE_URL = "https://szkasm.pythonanywhere.com";
+
+export const TOTAL_HOUSE_COUNT = 8;
